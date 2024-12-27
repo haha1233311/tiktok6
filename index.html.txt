@@ -1,0 +1,21 @@
+import time
+import random
+
+def fake_hack():
+    print("Initializing system...")
+    time.sleep(1)
+    print("Accessing mainframe...")
+    time.sleep(1)
+    print("Bypassing security protocols...")
+    time.sleep(1)
+
+    for _ in range(10):
+        print(f"Attempting to breach network {random.randint(1, 999)}...")
+        time.sleep(0.5)
+
+    print("Decrypting data...")
+    time.sleep(2)
+    print("Hacking complete... System access granted.")
+    print("Accessing classified files: [REDACTED]")
+
+fake_hack()
